@@ -9,6 +9,7 @@
 /* --------------------first navigation bar ------------------------- */
 
 .myntra{
+    width: 100%;
     display: flex;
     height: 4rem;
 }
@@ -61,12 +62,12 @@
 
 /*-------------- Second navigation bar ---------------------*/
 
-.nav2{
+#nav2{
     height: 2.2rem;
     width: 100%;
 }
 
-.nav2 ul{
+#nav2 ul{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -75,12 +76,12 @@
     color: rgb(97, 97, 115);
 }
 
-.nav2 ul li a{
+#nav2 ul li a{
     text-decoration: none;
     color: rgb(35,35,43);
    
 }
-.nav2 ul li a:hover{
+#nav2 ul li a:hover{
     border-bottom:2px solid red;
     color:  rgb(159, 32, 137);
 }
@@ -89,6 +90,7 @@
 /*-------------- Section main1 bar ---------------------*/
 
 #main1{
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     margin-top: 4rem;
@@ -154,7 +156,7 @@ section{
 
 .faishon1{
     width: 90%;
-    height: 500px;
+    /* height: 500px; */
     background-image: url(./image/befashion.webp);
     margin-top: 2rem;
 }
@@ -175,8 +177,9 @@ section{
     align-items: center;
 } */
 .allview{
+    display: flex;
     margin-left: 7rem;
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 .image1 a{
     margin-left: 1.5rem;
@@ -192,7 +195,7 @@ section{
 .image4{
     display: flex;
     align-items: center;
-    height: 500px;
+    /* height: 500px; */
     width: 90%;
     background-image: url(./image/background1.webp);
     margin-top: 5rem;
@@ -270,4 +273,69 @@ footer{
 #footer .five p{
     color: rgb(97, 97, 115);
     font-size: 14px;
+}
+
+@media(max-width:450px){
+
+    #nav2 ul{
+      display: none;
+    }
+
+    .myntra nav ul{
+        display: none;
+    }
+
+    .faishon1 div{
+        display: ruby;
+        height: 500px;
+        width: 100%;
+    }
+
+    .image-containt{
+        display: none;
+       
+    }
+
+    .image4{
+        height: 500px;
+        width: 100%;
+    }
+
+    #main1 span{
+        /* display: none; */
+    }
+
+    .myntra nav div input{
+        width: 130px;
+        outline: none;
+        border: none;
+        margin-left: 5px;
+    }
+
+    #main1{
+        width: 100%;
+        display: block;
+        justify-content: space-evenly;
+        margin-top: 4rem;
+    }
+
+    #main1 .off50 img{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .faishon1{
+        width: 100%;
+    }
+
+
+    #footer .two{
+        display: none;
+    }
+    #footer .three{
+        display: none;
+    }
+    #footer .four{
+        display: none;
+    }
 }

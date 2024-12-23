@@ -1,0 +1,143 @@
+*
+
+.myntra{
+    display: flex;
+    height: 4rem;
+}
+
+.myntra nav{
+    display: flex;
+    align-items: center;
+}
+.myntra nav img{
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+.myntra nav div{
+   display: flex;
+   align-items: center;
+   margin-left: 4rem;
+   border: 1px solid rgb(139, 139, 163);
+   border-radius: 4px;
+   padding: 11px;
+}
+
+.myntra nav div input{
+    width: 300px;
+    outline: none;
+    border: none;
+    margin-left: 5px;
+}
+.hr{
+    color: #cecede;
+}
+.myntra nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: rgb(97, 97, 115);
+    gap: 2.5rem;
+    font-size: 1.1rem;
+    margin-left: 2rem;
+}
+.myntra nav ul li a{
+    text-decoration: none;
+    color: rgb(35,35,43);
+}
+.myntra nav li a:hover{
+    border-bottom:2px solid red;
+    color:  black;
+}
+
+
+/*-------------- Second navigation bar ---------------------*/
+
+.nav2{
+    height: 2.2rem;
+    width: 100%;
+}
+
+.nav2 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 5px;
+    color: rgb(97, 97, 115);
+}
+
+.nav2 ul li a{
+    text-decoration: none;
+    color: rgb(35,35,43);
+   
+}
+.nav2 ul li a:hover{
+    border-bottom:2px solid red;
+    color:  rgb(159, 32, 137);
+}
+
+/*-------------- main navigation bar ---------------------*/
+
+.section1{
+    /* height: 500px; */
+    width: 42%;
+    background-color: white;
+    border-radius: 5px;
+   
+
+}
+
+#imag{
+    display: grid;
+    justify-content: center;
+    
+}
+
+#imag .one1{
+    border: 1px solid gray;
+}
+
+#imag .add{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 1rem;
+}
+
+#imag button{
+    padding: 14px 48px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid  rgb(159, 32, 137);
+   
+}
+
+#imag .b{
+    background-color: rgb(159, 32, 137);
+    color: white;
+    /* border-radius: 5px; */
+}
+
+#imag .line0{
+    height: 1px;
+    margin-top: 3rem;
+    background-color: gray;
+}
+
+#imag .imag1{
+    margin-top: 2rem;
+    /* height: 100px; */
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+  
+}
+
+#imag .imag1 .imag-one img{
+    height: 76px;
+}
+
