@@ -291,9 +291,9 @@ footer{
         width: 100%;
     }
 
-    .faishon1 img{
+    /* .faishon1 img{
         
-    }
+    } */
 
     .image-containt{
         display: none;
@@ -310,7 +310,7 @@ footer{
     }
 
     .myntra nav div input{
-        width: 50px;
+        width: 140px;
         outline: none;
         border: none;
         margin-left: 5px;

@@ -82,7 +82,9 @@
 
 .section1{
     /* height: 500px; */
-    width: 42%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
     background-color: white;
     border-radius: 5px;
    
@@ -141,3 +143,90 @@
     height: 76px;
 }
 
+
+
+
+
+.f67{
+    height: 150px;
+    width: 100%;
+    background-color: wheat;
+    padding: 5px 0px 0px 10px;
+    margin-top: 11px;
+    border-radius: 5px;
+    line-height: 8px;
+}
+
+.f67 p{
+    color: rgb(139, 139, 163);
+    font-size: 18px;
+    font-weight:600;
+}
+
+.f67 .f167{
+    color: black;
+    font-size: 2rem;
+}
+
+#selct{
+    height: 150px;
+    background-color: wheat;
+    padding: 1px 0px 0px 10px;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+
+.Select2{
+    display: flex;
+    font-size: 2rem;
+    gap: 1.5rem;
+}
+
+.Select2 span{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px 25px 5px 25px;
+}
+
+#selct2{
+    height: 150px;
+    background-color: wheat;
+    padding: 1px 0px 0px 10px;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+.Select3{
+   display: flex;
+   justify-content: space-between;
+   padding: 5px 32px 5px 5px;
+}
+
+.Select3 img{
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.Select3 button{
+    border: 1px solid  rgb(159, 32, 137);
+    /* border: none; */
+    border-radius: 5px;
+    color: rgb(159, 32, 137);
+    border-radius: 5px;
+    padding: 14px 48px 14px 48px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+section .div1{
+    height: 250px;
+    width: 100%;
+    background-color: wheat;
+}
+
+section .div1 div{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+}
